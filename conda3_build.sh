@@ -16,6 +16,7 @@ cd pyne
 python setup.py install --prefix="${CONDIR}" --hdf5="${CONDIR}" 
 cd scripts
 env
+locate libgfortran.so.3
 nuc_data_make
 cd ../..
 
