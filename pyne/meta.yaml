@@ -18,7 +18,6 @@ requirements:
     - cmake
     - cython
     - moab
-    - lapack
     - pytables
     - hdf5
     - numpy
@@ -29,7 +28,6 @@ requirements:
     - moab
     - pytaps # [py2k]
     - hdf5
-    - lapack
     - numpy
     - scipy
     - pytables
