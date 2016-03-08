@@ -18,7 +18,7 @@ else
   export CXX=g++
 fi
 
-locate libgfortran.so.3
+find / -name "libgfortran.so.3"
 ${PYTHON} setup.py install
 nuc_data_make
 
