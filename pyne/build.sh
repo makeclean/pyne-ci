@@ -20,7 +20,7 @@ fi
 
 # find / -name "libgfortran.so.3"
 objdump -T /home/travis/.local/lib/libgfortran.so.3 | grep 'GFORTRAN_1.4'
-objdump -T /home/travis/miniconda/pkgs/libgfortran-3.0-0/lib/ | grep 'GFORTRAN_1.4'
+objdump -T /home/travis/miniconda/pkgs/libgfortran-3.0-0/lib/libgfortran.so.3 | grep 'GFORTRAN_1.4'
 ${PYTHON} setup.py install
 nuc_data_make
 
